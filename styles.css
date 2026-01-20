@@ -118,7 +118,7 @@ body {
     overflow: hidden;   /* important */
 }
 
-/* background image LIMITED to hero only */
+
 .hero-section::after {
     content: "";
     position: absolute;
@@ -131,7 +131,7 @@ body {
     background-image: url("assets/itpark.png");
     background-size: cover;
 
-    /* 🔑 FORCE IMAGE TO TOUCH THE TOP */
+
     background-position: top center;
 
     background-repeat: no-repeat;
@@ -178,11 +178,11 @@ body {
     padding: 2.08vw;
     color: #1f2937;
 
-    /* ✅ KEY FIX */
+    
     z-index: 3;
     overflow: hidden;
 
-    /* Advanced hover effects */
+
     transition: all 0.3s ease;
 }
 
@@ -924,13 +924,13 @@ body {
         top: 0;
         left: 0;
         width: 100%;
-        padding: 10px;
+     /*   padding: 10px; */
     }
 
     .navbar-inner {
         width: 100%;
         padding: 10px 15px;
-        flex-direction: column;
+        flex-direction: row; /*testing change*/
         align-items: flex-start;
     }
 
@@ -1004,7 +1004,8 @@ body {
     }
 
     .snapserve-img-small {
-        display: none; /* Hide small image on mobile */
+       /* display: none; */
+        display: block; /* testing */
     }
 
     /* About */
@@ -1081,9 +1082,9 @@ body {
 
 /* Extra Small Devices (phones, <576px) */
 @media (max-width: 575px) {
-    /* General adjustments for mobile */
+
     body {
-        font-size: 14px; /* Slightly reduce base font size for readability */
+        font-size: 14px; 
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1104,7 +1105,7 @@ body {
     .navbar-inner {
         width: 100%;
         padding: 10px;
-        flex-direction: column;
+        flex-direction: row; /*testing change*/
         align-items: center;
         gap: 10px;
     }
