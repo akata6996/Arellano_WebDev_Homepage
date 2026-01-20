@@ -9,6 +9,15 @@ AOS.init({
   offset: 100
 });
 
+// Hamburger Menu Toggle
+const hamburger = document.querySelector('.hamburger');
+const navbarLinks = document.querySelector('.navbar-links');
+
+hamburger.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active');
+  hamburger.classList.toggle('active');
+});
+
 // Team Carousel Functionality
 let currentSlide = 0;
 const track = document.querySelector('.carousel-track');
