@@ -1044,6 +1044,10 @@ body {
     .container {
         padding: 0 20px;
     }
+
+    p {
+        padding-left: 20px;
+    }
     /* Navbar */
     .navbar {
         position: relative;
@@ -1242,21 +1246,25 @@ body {
 
     /* Footer */
     .footer-container {
-        flex-direction: column;
-        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
-    .footer-left,
-    .footer-links {
-        width: 100%;
+    .footer-left {
+        flex: 1 1 100%;
+        max-width: none;
     }
 
     .footer-links {
-        flex-direction: column;
+        flex: 1 1 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 20px;
     }
 
     .footer-col {
+        flex: 1 1 45%;
         margin-bottom: 15px;
     }
 
