@@ -23,6 +23,6 @@ Convert the website to mobile-first design without altering desktop appearance. 
 
 ## Status
 - [x] Step 1: Restructure CSS for key sections (navbar, hero, snapserve, about, testimonials, contact, team carousel, experience, footer)
-- [x] Step 2: Modify Footer Layout for Mobile (changed to flex row with wrap)
+- [x] Step 2: Modify Footer Layout for Mobile (changed to flex row with wrap, no columns)
 - [x] Step 3: Preserve Desktop Design (added @media (min-width: 769px) overrides)
-- [x] Step 4: Test and Verify (CSS restructured to mobile-first, desktop preserved, footer mobile-friendly)
+- [x] Step 4: Test and Verify (CSS restructured to mobile-first, desktop preserved, footer mobile-friendly without columns)
